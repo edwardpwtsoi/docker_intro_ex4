@@ -10,6 +10,6 @@ pip install -r requirements.txt
 FLASK_APP=hello.py flask run
 ```
 
-visit port localhost:5000/postgres/build_and_run with your favourite browser and you will see a port number of the new created postgres container.
+visit localhost:5000/postgres/build_and_run with your favourite browser and you will see a port number of the new created postgres container.
 
 Note: Make sure you have docker installed on you computer.
