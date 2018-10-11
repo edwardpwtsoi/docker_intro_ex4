@@ -4,8 +4,7 @@ credit to yetanotherchris/docker-automation.py for the nicelogger module
 
 # usage
 pip install -r requirements.txt
-EXPORT FLASK=app.py
-flask run
+FLASK_APP=hello.py flask run
 
 visit port localhost:5000/postgres/build_and_run with your favourite browser and you will see a port number of the new created postgres container.
 
